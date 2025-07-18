@@ -8,8 +8,21 @@
 
 */
 
+// TODO: Create an Window via NSWindow
+
 
 #import <AppKit/AppKit.h>
+
+/*
+
+   NSRect rect = NSMakeRect(100, 100, 200, 200); // Define the window's frame
+   unsigned int styleMask = NSTitledWindowMask | NSClosableWindowMask | NSMiniaturizableWindowMask; // Define the window style
+   NSWindow *myWindow = [[NSWindow alloc] initWithContentRect:rect styleMask:styleMask backing:NSBackingStoreBuffered defer:NO]; // Initialize the window
+   [myWindow setTitle:@"My Window"]; // Set the window title	
+      [myWindow makeKeyAndOrderFront:nil]; // Make the window visible and bring it to the front
+      NSApplication *myApplication = [NSApplication sharedApplication];
+   [myApplication run];
+*/
 
 int 
 main(int argc, const char *argv[])
@@ -25,6 +38,7 @@ main(int argc, const char *argv[])
   #endif
    
   RELEASE (pool);
+
   */
 
   return NSApplicationMain (argc, argv);
